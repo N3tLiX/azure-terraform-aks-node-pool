@@ -1,11 +1,11 @@
-# azure-terraform-[module_name]
+# azure-terraform-aks-node-pool
 
-Create a simple [module_full_name] in Azure
+Create an AKS (Kubernetes) Node Pool to an AKS (Kubnernetes) Cluster in Azure
 
 ## Usage in Terraform 0.13
 ```hcl
 module "example" {
-  source  = "github.com/N3tLiX/modules//[module_folder]"
+  source  = "github.com/N3tLiX/modules//aksnodepool"
 }
 ```
 
